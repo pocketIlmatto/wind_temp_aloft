@@ -68,7 +68,7 @@ module WindTempAloft
     end
 
     def display_airport_codes
-      puts airport_codes(@data)
+      puts airport_codes(@data).join(", ")
     end
 
     def parse_info(passed_info)
