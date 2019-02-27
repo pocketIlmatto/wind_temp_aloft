@@ -10,7 +10,7 @@ Ruby, Bundler
 
 ## Running
 ### Get the code
-`git clone git@github.com:pocket_ilmatto/wind_temp_aloft.git`
+`git clone https://github.com/pocketIlmatto/wind_temp_aloft.git`
 
 ### Use the correct ruby version
 `rvm use 2.5.1`
@@ -27,7 +27,18 @@ Ruby, Bundler
 ## Usage
 ### To display all altitudes for an airport code
 
-- `wind_temp_aloft show SFO all`
+- `wind_temp_aloft show IMB all`
+```sh
+Altitude: 3000' Direction: na, Speed: na kts, Temperature: na C
+Altitude: 6000' Direction: na, Speed: na kts, Temperature: na C
+Altitude: 9000' Direction: 230, Speed: 15 kts, Temperature: -09 C
+Altitude: 12000' Direction: 210, Speed: 29 kts, Temperature: -13 C
+Altitude: 18000' Direction: 230, Speed: 69 kts, Temperature: -23 C
+Altitude: 24000' Direction: 240, Speed: 87 kts, Temperature: -35 C
+Altitude: 30000' Direction: 240, Speed: 112 kts, Temperature: -49 C
+Altitude: 34000' Direction: 250, Speed: 119 kts, Temperature: -58 C
+Altitude: 39000' Direction: 260, Speed: 68 kts, Temperature: -55 C
+```
 
 ### To display specific altitude for airport code
 
@@ -36,6 +47,9 @@ Ruby, Bundler
 ### To display available airport codes
 
 - `wind_temp_aloft codes`
+```sh
+BIH, BLH, FAT, FOT, ONT, RBL, SAC, SAN, SBA, SFO, SIY, WJF, AST, IMB, LKV, OTH, PDX, RDM, GEG, SEA, YKM
+```
 
 ## Resources
 * [Bundler Gem](https://github.com/bundler/bundler)
